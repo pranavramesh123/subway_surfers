@@ -3,6 +3,8 @@
 ## Prequisites
     WebGL
 ## How to run
+   Clone this repo to your Local machine
+   cd src
    open index.html
    Do firefox index.html from terminal
 ## Features   
