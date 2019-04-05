@@ -3,7 +3,7 @@
 ## Prequisites
     WebGL
 ## How to run
-   open inde.html
+   open index.html
    Do firefox index.html from terminal
 ## Features   
     Characters:Policeman,dog,player
@@ -14,7 +14,7 @@
     Sound
     Texture,lightining
     
-    ![alt txt](subway_surf.png)
+  ![alt tag](subway_surf.png)
     
 ##  Controls
       Space: jump
