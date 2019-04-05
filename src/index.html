@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Subway surfers</title>
+    <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../webgl.css" type="text/css">
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="text-center">
+            <br><button type="button" id = "score" class="btn btn-primary btn-lg" >Score: 0</button><br><br>
+            <!--<button id="singlebutton" name="singlebutton" class="btn btn-primary">Next Step!</button>-->
+        </div>
+    <div id="canvasDiv">
+    <canvas id="glcanvas" width="1150" height="500"></canvas>
+  </div>
+    <audio src = './Sounds/coins.wav' id = "coins"></audio>
+    <audio src = './Sounds/crash.wav' id = "crash"></audio>
+    <audio src = './Sounds/crouch.wav' id = "crouch"></audio>
+    <audio src = './Sounds/guard1.wav' id = "guard1"></audio>
+    <audio src = './Sounds/guard2.wav' id = "guard2"></audio>
+    <audio src = './Sounds/intro.wav' id = "intro"></audio>
+    <audio src = './Sounds/move.wav' id = "move"></audio>
+    <audio src = './Sounds/powerup.wav' id = "powerup"></audio>
+    <audio src = './Sounds/grass.wav' id = "stumble"></audio>
+    <audio src = './Sounds/bush.wav' id = "stumble_bush"></audio>
+    <audio src = './Sounds/theme.mp3' id = "theme" loop></audio>
+
+
+  </body>
+  <script src="./jquery-3.3.1.min.js"></script>
+  <script src="./gl-matrix.js"></script>
+  <script src="./loadtexture.js"></script>
+  <script src="wall.js"></script>
+  <script src="coin.js"></script>
+  <script src="obstacle1.js"></script>
+  <script src="obstacle2.js"></script>
+  <script src="powerups.js"></script>
+  <script src="traffic_light.js"></script>
+  <script src="player.js"></script>
+  <script src="player2.js"></script>
+  <script src="mousetrap.min.js"></script>
+  <script src="./track.js"></script>
+  <script src="./train.js"></script>
+  <script src="./main.js"></script>
+  <!-- <script src="./circle.js"></script> -->
+
+</html>
