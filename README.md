@@ -7,9 +7,9 @@
    
    * cd src
    
-   *open index.html
+   * open index.html
    
-   *Do firefox index.html from terminal
+   * Do firefox index.html from terminal
 ## Features   
     Characters:Policeman,dog,player
     World,Coins
